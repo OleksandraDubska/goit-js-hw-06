@@ -27,5 +27,3 @@ const item = images.map(img =>
     </li>`).join("");
 
 listEl.insertAdjacentHTML('afterbegin', item);
-console.log(listEl);
-
